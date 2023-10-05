@@ -1,0 +1,8 @@
+bot:
+  botName: 'BOT NAME'
+  botToken: 'BOT_TOKEN'
+  adminId: TELEGRAM_ID
+metalvis:
+  x-api-key: 'METALVIS_API_KEY'
+  wellcome_message: 'Metalvis bot loaded'
+  api_url: 'url = "https://metalvis.ua/uk/api/'  
