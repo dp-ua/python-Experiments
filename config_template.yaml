@@ -4,7 +4,7 @@ bot:
   botName: 'BOT NAME'
   botToken: 'BOT_TOKEN'
   adminId: TELEGRAM_ID
-metalvis:
+api:
   x-api-key: 'YOUR_API_KEY'
   wellcome_message: 'bot loaded'
   api_url: 'url = "https://APIAPI.ua/uk/api/'  

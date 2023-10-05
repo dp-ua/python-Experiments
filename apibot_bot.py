@@ -16,14 +16,14 @@ botName = bot_config['botName']
 botToken = bot_config['botToken']
 adminId = bot_config['adminId']
 
-#metalvis api config
-metalvis_config = config_data['metalvis']
+# api config
+api_config = config_data['api']
 headers = {
-  'x-api-key': metalvis_config['x-api-key']
+  'x-api-key': api_config['x-api-key']
 }
-api_url = metalvis_config['api_url']
+api_url = api_config['api_url']
 GET_GOODS_BY_ID  = "GetGoodsById"
-welcome_message = metalvis_config['wellcome_message']
+welcome_message = api_config['wellcome_message']
 
 
 bot = Bot(token=botToken)
